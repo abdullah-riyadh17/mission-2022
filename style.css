@@ -1,3 +1,38 @@
 body{
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 50px;
+}
+.half-width{
+    width: 50%;
+    margin-left: 10%;
+    
+}
+.half-width img{
+    width: 80%;
+}
+.tomato-color{
+    color: tomato;
+}
+#top-slice{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Yeseva One';
+    border-left: 3px solid;
+    border-image: linear-gradient(tomato, salmon);
+    border-image-slice: 1;
+    padding: 10px;
+    
+    
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    font-size: 700;
+    background-image: linear-gradient(tomato, salmon);
+    padding: 10px 40px;
+    border-radius: 10px;
 }
