@@ -3,7 +3,7 @@ body{
     
 }
 h1{
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
 }
 .flexible-container{
@@ -18,16 +18,18 @@ h1{
 .half-width{
     width: 50%;
     margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
     
 }
 .half-width img{
-    width: 80%;
+    width: 100%;
 }
 .tomato-color{
     color: tomato;
 }
 #top-slice{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
     font-family: 'Yeseva One';
     border-left: 3px solid;
@@ -52,6 +54,7 @@ h1{
 .my-mission{
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 100px;
     
 }
 
@@ -79,4 +82,10 @@ h1{
 }
 #goals-bg{
     background-color: lightgoldenrodyellow;
+}
+.develop-limits {
+    background-image: url(images/shape-1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 20%;
 }
